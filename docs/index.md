@@ -96,7 +96,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - Spanish: Fluent
 
 
-## Core Competencies
+## Skills
 
 | Skill            | Note                                                                                       |
 | :--------------- | :----------------------------------------------------------------------------------------- |
