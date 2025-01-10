@@ -16,12 +16,25 @@ theme:
     scheme: slate
     primary: blue grey
 markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
   - attr_list
   - md_in_html
   - pymdownx.superfences
   - admonition
   - pymdownx.details
   - def_list
+  - footnotes
   - pymdownx.tasklist:
       custom_checkbox: true
-
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
