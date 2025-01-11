@@ -11,7 +11,38 @@ Developed a Python application to efficiently process and analyse Call Detail Re
 - Error logging and handling for operational reliability.
 
 ## OLM Processor
-TODO brief description
+
+``` mermaid
+sequenceDiagram
+    participant OLM as Online Mediation Platform
+    participant OLM_Collector as OLM Collector
+    participant OLM_Decoder as OLM Decoder
+    participant OLM_Processor as OLM Processor
+    participant MongoDB as MongoDB
+    OLM->>OLM_Collector: SFTP collection
+    OLM_Collector->>OLM_Decoder: Decoding
+    OLM_Decoder->>OLM_Processor: Processing
+    OLM_Processor->>MongoDB: Storage
+```
+
+Designed and implemented a Python-based system for processing Online Mediation platform data, managing the collection and decoding of logs from various network streams:
+
+- **Collector**: Utilizes SFTP to fetch log files from multiple predefined streams, organizing and managing these files across local directories for processing. Features include:
+  - Monitoring specific directories for new log files.
+  - Implementing limits on the number of subdirectories and files processed to manage system resources.
+  - Logging for operational transparency and troubleshooting.
+
+- **Decoder**: Parses log filenames and content to extract meaningful data such as timestamps, stream identifiers, and MSISDN (Mobile Station International Subscriber Directory Number). Key aspects include:
+  - Custom regex for identifying and extracting MSISDN within logs.
+  - Decoding gzip-compressed files to process their contents.
+
+- **Processor**: Manages the actual data processing, including:
+  - Handling both compressed (.gz) and uncompressed log files.
+  - Storing parsed data in MongoDB for later analysis or reporting.
+  - Multi-processing for performance, allowing parallel processing of multiple files.
+  - File management post-processing, moving files to a processed directory to avoid reprocessing.
+
+This project enhances data handling capabilities for network mediation, ensuring efficient log management, data extraction, and storage for operational insights.
 
 ## Field Ops Portal
 TODO brief description
