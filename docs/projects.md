@@ -2,7 +2,14 @@
 
 A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
 
-## EPG CDR and OLM Processing
+## EPG CDR Processor
+Developed a Python application to efficiently process and analyze Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis. Features include:
+- Custom parsing of hexadecimal data for accurate location and timestamp information.
+- Multi-processing to handle large datasets concurrently (using python multiprocessing module).
+- Automated file management to prevent duplicate processing.
+- Error logging and handling for operational reliability.
+
+## OLM Processor
 TODO brief description
 
 ## Field Ops Portal
