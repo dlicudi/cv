@@ -127,6 +127,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **GitHub** (★★★☆☆, 5+ yrs) - Open source projects, GitHub workflows/automation and GitHub Pages
 - **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
+- **Regex** (★★★★★, 20+ yrs) - Extensive use in system administration and development
 
 ## Open Source Projects
 
