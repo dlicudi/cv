@@ -98,6 +98,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 
 ## Skills
 
+- **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
 - **Python** (★★★★★, 10+ yrs) - Web development, data processing, scripting
 - **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI with jQuery, Bootstrap, DataTables, Basic DOM manipulation
 - **Bash** (★★★★★, 20+ yrs) - Used to automate CI deployment pipelines
@@ -113,7 +114,6 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **Git** (★★★☆☆, 10+ yrs) - Branching strategies, PRs, CI/CD, code reviews
 - **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
-- **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
 
 ## Open Source Projects
 
