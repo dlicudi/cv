@@ -121,6 +121,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
 - **Regex** (★★★★★, 20+ yrs) - Extensive use in system administration and development
+- **Celery** (★★★☆☆, 5+ yrs) - Employed for asynchronous task management, specifically for sending email appointment reminders and two-factor authentication codes.
 
 ## Open Source Projects
 
