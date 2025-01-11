@@ -98,24 +98,22 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 
 ## Skills
 
-| Skill            | Note                                                                                       |
-| :--------------- | :----------------------------------------------------------------------------------------- |
-| **Python**       | (★★★★★, 10+ yrs) Web development, data processing, scripting              |
-| **JavaScript**   | (★★★☆☆, 10+ yrs) Front-end UI with jQuery, Bootstrap (modals/toasts), DataTables, Basic DOM manipulation |
-| **Bash**         | (★★★★★, 20+ yrs) Used to automate CI deployment pipelines                                  |
-| **C**            | (★★★☆☆) Systems programming, embedded systems                                             |
-| **Django**       | (★★★★★, 5+ yrs) Production-grade REST APIs, MVC apps                                      |
-| **Flask**        | (★★★★★, 5+ yrs) Production-grade REST APIs, lightweight microservices                     |
-| **FastAPI**      | (★★★☆☆, 3+ yrs) High-performance REST APIs                                                |
-| **PostgreSQL**   | (★★★☆☆, 10+ yrs) Schema design, queries, performance tuning                                |
-| **MySQL/MariaDB**| (★★★★★, 20+ yrs) Schema design, queries, performance tuning                                |
-| **MongoDB**      | (★★★★★, 5+ yrs) NoSQL data storage for usage logs, microservices                           |
-| **Oracle**       | (★★☆☆☆, 10+ yrs) Some enterprise usage, queries                                           |
-| **Redis**        | (★★★☆☆) Used (with Python RQ) for caching data and queueing requests                      |
-| **Git**          | (★★★☆☆, 10+ yrs) Branching strategies, CI/CD, code reviews                                |
-| **VS Code**      | (★★★★★) Daily dev environment, Git integration, remote development, debugging             |
-| **AI Tools**     | (★★★☆☆) ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing     |
-
+- **Python** (★★★★★, 10+ yrs) - Web development, data processing, scripting
+- **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI with jQuery, Bootstrap, DataTables, Basic DOM manipulation
+- **Bash** (★★★★★, 20+ yrs) - Used to automate CI deployment pipelines
+- **C** (★★★☆☆) - Systems programming, embedded systems
+- **Django** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps
+- **Flask** (★★★★★, 5+ yrs) - Production-grade REST APIs, lightweight microservices
+- **FastAPI** (★★★☆☆, 3+ yrs) - High-performance REST APIs
+- **PostgreSQL** (★★★☆☆, 10+ yrs) - Schema design, queries, performance tuning
+- **MySQL/MariaDB** (★★★★★, 20+ yrs) - Schema design, queries, performance tuning
+- **MongoDB** (★★★★★, 5+ yrs) - NoSQL data storage for usage logs, microservices
+- **Oracle** (★★☆☆☆, 10+ yrs) - Some enterprise usage, queries
+- **Redis** (★★★☆☆) - Used (with Python RQ) for caching data and queueing requests
+- **Git** (★★★☆☆, 10+ yrs) - Branching strategies, CI/CD, code reviews
+- **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
+- **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
+- **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
 
 ## Open Source Projects
 
