@@ -110,7 +110,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **MongoDB** (★★★★★, 5+ yrs) - NoSQL data storage for usage logs, microservices
 - **Oracle** (★★☆☆☆, 10+ yrs) - Some enterprise usage, queries
 - **Redis** (★★★☆☆) - Used (with Python RQ) for caching data and queueing requests
-- **Git** (★★★☆☆, 10+ yrs) - Branching strategies, CI/CD, code reviews
+- **Git** (★★★☆☆, 10+ yrs) - Branching strategies, PRs, CI/CD, code reviews
 - **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
 - **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
