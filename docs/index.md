@@ -20,7 +20,8 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
 
 As the Lead Developer at Gibtelecom, I was responsible for the development and implementation of key systems.
 
-- Implementation of company wide monitoring system using Check_MK monitoring over 60k services. 
+- Implementation of company wide monitoring system using Check_MK monitoring over 60k services.
+- Developed a provisioning platform used company wide by Engineers and customer facing staff.
 - Provided systems to facilitate major migrations to Gibtelecom's IMS platform.
 - Support and integration of Ericsson's provisioning platforms (EMA/EDA).
 - Developed an SMS API to provide a customer-facing service.
@@ -113,6 +114,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **Oracle** (★★☆☆☆, 10+ yrs) - Some enterprise usage, queries
 - **Redis** (★★★☆☆) - Used (with Python RQ) for caching data and queueing requests
 - **Git** (★★★☆☆, 10+ yrs) - Branching strategies, PRs, CI/CD, code reviews
+- **GitHub** (★★★☆☆, 5+ yrs) - Open source projects, GitHub workflows/automation and GitHub Pages
 - **VS Code** (★★★★★) - Daily dev environment, Git integration, remote development, debugging
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
 
