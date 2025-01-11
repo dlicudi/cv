@@ -21,7 +21,17 @@ TODO expanded description
 TODO brief description
 
 ## Cockpitdecks
-TODO brief description
+Contributed to the development of **Cockpitdecks**, an open-source project providing a Python interface for controlling Loupedeck Live and other decks for integration with X-Plane flight simulation software.
+
+- Diagnosed and resolved compatibility issues with [Loupedeck Live](https://github.com/devleaks/python-loupedeck-live/issues/2) on newer hardware firmware models.
+- Contributed bug fixes and new features to [Cockpitdecks](https://github.com/devleaks/cockpitdecks/commits/main/?author=dlicudi) repository.
+- Established a separate [repository](https://github.com/dlicudi/cockpitdecks-configs) and [documentation](https://dlicudi.github.io/cockpitdecks-configs/) to host a comprehensive set of aircraft configurations for use with CockpitDecks.
+
+### Technologies Used ###
+- Python
+- Loupedeck Live/Steamdeck
+- X-Plane
+- Git/GitHub
 
 ## SMS Gateway
 TODO expanded description
