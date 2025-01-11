@@ -55,13 +55,6 @@ My role primarily focused on developing software that interfaced with various sy
 - **Position**: Enterprise Services Engineer
 - **Duration**: Jan 2013 - Dec 2013
 
-At BetVictor, I focused on supporting and improving the performance and monitoring of systems like Oracle Coherence, ActiveMQ, and Apache.
-
-
-### BetVictor, Gibraltar
-- **Position**: Enterprise Services Engineer
-- **Duration**: Jan 2013 - Dec 2013
-
 At BetVictor, I focused on supporting and improving the performance and monitoring of systems like Oracle Coherence, ActiveMQ, and Apache. Key contributions included:
 
 - Use of **Splunk** to monitor the health of **Oracle Coherence**, enhancing system visibility and troubleshooting capabilities.
