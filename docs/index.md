@@ -108,8 +108,8 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI with jQuery, Bootstrap, DataTables, Basic DOM manipulation
 - **Bash** (★★★★★, 20+ yrs) - Used to automate CI deployment pipelines
 - **C** (★★★☆☆) - Developing command-line tools to incorporate MySQL data into MRTG; kernel patching and compiling for User Mode Linux.
-- **Django** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps
-- **Flask** (★★★★★, 5+ yrs) - Production-grade REST APIs, lightweight microservices
+- **Django** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps requiring databases and admin portals
+- **Flask** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps
 - **FastAPI** (★★★☆☆, 3+ yrs) - High-performance REST APIs
 - **PostgreSQL** (★★★☆☆, 10+ yrs) - Schema design, queries, performance tuning
 - **MySQL/MariaDB** (★★★★★, 20+ yrs) - Schema design, queries, performance tuning
