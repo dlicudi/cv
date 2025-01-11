@@ -3,7 +3,26 @@
 A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
 
 ## EPG CDR Processor
-Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis. Features include:
+Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis.
+
+
+``` mermaid
+sequenceDiagram
+    participant EPG as Packet Gateway
+    participant Mediation as Mediation Platform
+    participant Files as CDR File Storage
+    participant Decoder as CDR Decoder
+    participant Processor as CDR Processor
+    participant MongoDB as MongoDB
+    EPG->>Mediation: SFTP Transfer to mediation
+    Mediation->>Files: SFTP Transfer to file storage
+    Files->>Decoder: ASN.1 to XML decoding
+    Decoder->>Processor: Parsing decoded CDRs 
+    Processor->>MongoDB: Database storage 
+```
+
+
+Features include:
 
 - Custom parsing of hexadecimal data for accurate location and timestamp information.
 - Multi-processing to handle large datasets concurrently (using python multiprocessing module).
@@ -11,6 +30,7 @@ Developed a Python application to efficiently process and analyse Call Detail Re
 - Error logging and handling for operational reliability.
 
 ## OLM Processor
+Designed and implemented a Python-based system for processing Online Mediation platform data, managing the collection and decoding of logs from various network streams.
 
 ``` mermaid
 sequenceDiagram
@@ -24,8 +44,6 @@ sequenceDiagram
     OLM_Decoder->>OLM_Processor: Processing
     OLM_Processor->>MongoDB: Storage
 ```
-
-Designed and implemented a Python-based system for processing Online Mediation platform data, managing the collection and decoding of logs from various network streams:
 
 - **Collector**: Utilizes SFTP to fetch log files from multiple predefined streams, organizing and managing these files across local directories for processing. Features include:
   - Monitoring specific directories for new log files.
