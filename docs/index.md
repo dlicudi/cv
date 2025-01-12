@@ -122,6 +122,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **AI Tools** (★★★☆☆) - ChatGPT, Copilot, Grok for code suggestions, documentation, automated testing
 - **Regex** (★★★★★, 20+ yrs) - Extensive use in system administration and development
 - **Celery** (★★★☆☆, 5+ yrs) - Employed for asynchronous task management, sending emails, two-factor authentication codes and scheduled retrieval of data
+- **Nginx** (★★★☆☆, 10+ yrs) - Used with Django and Flask for reverse proxying and HTTP load balancing
 
 ## Open Source Projects
 
