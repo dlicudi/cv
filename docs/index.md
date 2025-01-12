@@ -102,7 +102,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 
 ## Skills
 
-- **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
+- **Linux** (★★★★★, 20+ yrs) - System administration, performance tuning for enterprise services and server management for DevOps (deployment automation, systemd services)
 - **Python** (★★★★★, 10+ yrs) - Web development, data processing, scripting
 - **ISO 27001** (★★★★☆, 2+ yrs) - Experience in implementing secure development processes
 - **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI elements with jQuery, Bootstrap, DataTables, Basic DOM manipulation
