@@ -9,8 +9,7 @@ author: Duane Licudi
 A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
 
 ## EPG CDR Processor
-
-L|Python|https://www.python.org|class:badge-success|
+L|Python|https://www.python.org|
 L|MongoDB|https://www.mongodb.com|
 L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
 L|Systemd|https://systemd.io|
@@ -43,7 +42,6 @@ sequenceDiagram
 ---
 
 ## OLM Processor
-
 L|Python|https://www.python.org|
 L|MongoDB|https://www.mongodb.com|
 L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
@@ -76,7 +74,6 @@ sequenceDiagram
 L|Python|https://www.python.org|
 L|Django|https://www.django.org|
 L|Celery|https://www.celery.org|
-L|Celery|https://www.celery.org|
 L|Nginx|https://nginx.org|
 
 ---
@@ -91,9 +88,10 @@ TODO brief description
 
 ---
 
-## Lobster SIM Activator
+## MVNO SIM Activator
 L|Python|https://www.python.org|
 L|XML SOAP|https://www.w3schools.com/xml/xml_soap.asp|
+L|Systemd|https://systemd.io|
 
 An automated system designed to manage and activate SIM cards by interfacing with a CRM (Customer Relationship Management) system. It monitors open activation events, processes relevant data, and executes necessary actions to complete activation workflows.
 
@@ -109,17 +107,31 @@ sequenceDiagram
     WorkOrders->>Jobs: Activate work order job step and close event
 ```
 
-
 ---
 
-## Lobster Usage Database
-TODO brief description
+## MVNO Usage Database
+L|Python|https://www.python.org|
+L|MySQL|https://www.mysql.com|
+L|XML SOAP|https://www.w3schools.com/xml/xml_soap.asp|
+L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
+L|YAML|https://yaml.org|
+
+Developed a Python-based system for collecting, processing, and storing usage data of subscribers. Utilised MySQL for database management and interfaced with an SOAP API interface to fetch subscriber usage details.
+
+``` mermaid
+sequenceDiagram
+    participant CRS as CDR Reporting System
+    participant Collector as Collector
+    participant MySQL as MySQL Database
+
+    CRS->>Collector: Collect specific data range for subscriber
+    Collector->>MySQL: Store parsed data as usage records
+```
 
 ---
 
 ## Cockpitdecks
-
-L|Python|https://www.python.org|class:badge-success|
+L|Python|https://www.python.org|
 L|Loupedeck|https://www.loupedeck.com|
 L|Streamdeck|https://www.elgato.com/ww/en|
 L|X-Plane|https://x-plane.com|
@@ -137,7 +149,10 @@ Contributed to the development of **Cockpitdecks**, an open-source project provi
 ---
 
 ## SMS Gateway
-TODO expanded description
+L|Python|https://www.python.org|
+L|YAML|https://yaml.org|
+L|Django|https://www.django.org|
+L|Nginx|https://nginx.org|
 
 Developed a solution to provide an API that could interface an SMS Centre.
 This comprised of a Portal (Django + PostgreSQL), a front end API (FastAPI) and background services (Python) that could interface directly with the SMS Centre using SMPP.
@@ -166,7 +181,6 @@ Models using of clean and save functions to check for credit and save allowed ad
 Heavily customised admin views.
 
 Developed an SMSC telnet library required to interface with SMS centre to retrieve information such as status of the SMS centre, throughput and licensing limits.
-
 
 Delivery reports were recieved via SMPP connection and sent to the Portal via Django's REST framework API.
 
