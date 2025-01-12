@@ -1,3 +1,9 @@
+---
+title: Projects
+summary: A brief description of my document.
+author: Duane Licudi
+---
+
 # Projects
 
 A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
@@ -10,6 +16,7 @@ L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
 L|Systemd|https://systemd.io|
 L|ASN.1|https://www.ncbi.nlm.nih.gov/Structure/asn1.html|
 L|XML|https://www.w3.org/XML/|
+L|YAML|https://yaml.org|
 
 Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis.
 
@@ -33,12 +40,15 @@ sequenceDiagram
 - Automated file management to prevent duplicate processing.
 - Error logging and handling for operational reliability.
 
+---
+
 ## OLM Processor
 
 L|Python|https://www.python.org|
 L|MongoDB|https://www.mongodb.com|
 L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
 L|Systemd|https://systemd.io|
+L|YAML|https://yaml.org|
 
 
 Designed and implemented a Python-based system for processing Online Mediation platform data, managing the collection and decoding of logs from various network streams.
@@ -60,37 +70,55 @@ sequenceDiagram
 - **Decoder** parses log filenames and content to extract timestamps, stream identifiers and MSISDN.
 - **Processor**: Processes decoded files for storage in MongoDB.
 
+---
 
 ## Field Ops Portal
-TODO brief description
-
+L|Python|https://www.python.org|
+L|Django|https://www.django.org|
+L|Celery|https://www.celery.org|
+L|Celery|https://www.celery.org|
 L|Nginx|https://nginx.org|
 
+---
 
 ## FTTH Migration Portal
 TODO brief description
 
+---
+
 ## IMS Migration Portal
 TODO brief description
+
+---
 
 ## Lobster SIM Activator
 TODO expanded description
 
+---
+
 ## Lobster Usage Database
 TODO brief description
 
+---
+
 ## Cockpitdecks
+
+L|Python|https://www.python.org|class:badge-success|
+L|Loupedeck|https://www.loupedeck.com|
+L|Streamdeck|https://www.elgato.com/ww/en|
+L|X-Plane|https://x-plane.com|
+L|Git|https://git-scm.com|
+L|Github|https://github.com|
+L|YAML|https://yaml.org|
+
+
 Contributed to the development of **Cockpitdecks**, an open-source project providing a Python interface for controlling Loupedeck Live and other decks for integration with X-Plane flight simulation software.
 
 - Diagnosed and resolved compatibility issues with [Loupedeck Live](https://github.com/devleaks/python-loupedeck-live/issues/2) on newer hardware firmware models.
 - Contributed bug fixes and new features to [Cockpitdecks](https://github.com/devleaks/cockpitdecks/commits/main/?author=dlicudi) repository.
 - Established a separate [repository](https://github.com/dlicudi/cockpitdecks-configs) and [documentation](https://dlicudi.github.io/cockpitdecks-configs/) to host a comprehensive set of aircraft configurations for use with CockpitDecks.
 
-### Technologies Used ###
-- Python
-- Loupedeck Live/Steamdeck
-- X-Plane
-- Git/GitHub
+---
 
 ## SMS Gateway
 TODO expanded description
