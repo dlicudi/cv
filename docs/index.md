@@ -25,6 +25,7 @@ As the Lead Developer at Gibtelecom, I was responsible for the development and i
 - Provided systems to facilitate major migrations to Gibtelecom's IMS platform.
 - Support and integration of Ericsson's provisioning platforms (EMA/EDA).
 - Developed an SMS API to provide a customer-facing service.
+- Established process for standard operating procedures adopted across Technology Directorate.
 
 #### MVNO related projects
 - Developed an automated number porting system.
