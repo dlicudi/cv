@@ -105,12 +105,10 @@ sequenceDiagram
     participant Services as Services
     participant SMSC as SMS Centre
     FrontendAPI->>Django: Send and receive messages
-    Services->>Django: Delivery reports
-    Services->>Django: Incoming messages
+    Services->>Django: Incoming messages and delivery reports
     Services->>SMSC: Transmit messages
     Django->>Services: Outgoing messages
-    SMSC->>Services: Incoming messages
-    SMSC->>Services: Delivery reports
+    SMSC->>Services: Incoming messages and delivery reports
 ```
 
 Django Rest Framework, Admin Interface, Signals used to adjust increase client balances on top up decrease on creating message.
@@ -130,6 +128,7 @@ Services to handle incoming and outgoing messages were handled via separate list
 
 ## ETK (Provisioning Platform)
 TODO expanded description
+
 
 ``` mermaid
 sequenceDiagram
