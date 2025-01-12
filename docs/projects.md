@@ -4,11 +4,12 @@ A sample of interesting projects I've worked on, some of which I have expanded o
 
 ## EPG CDR Processor
 
-L|Python|https://www.python.org|
+L|Python|https://www.python.org|class:badge-success|
 L|MongoDB|https://www.mongodb.com|
 L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
 L|Systemd|https://systemd.io|
 L|ASN.1|https://www.ncbi.nlm.nih.gov/Structure/asn1.html|
+L|XML|https://www.w3.org/XML/|
 
 Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis.
 
@@ -59,15 +60,12 @@ sequenceDiagram
 - **Decoder** parses log filenames and content to extract timestamps, stream identifiers and MSISDN.
 - **Processor**: Processes decoded files for storage in MongoDB.
 
-!!! note "Technologies"
-    ==Multiprocessing==
-    ==Python==
-    ==MongoDB==
-    ==Systemd==
-
 
 ## Field Ops Portal
 TODO brief description
+
+L|Nginx|https://nginx.org|
+
 
 ## FTTH Migration Portal
 TODO brief description
