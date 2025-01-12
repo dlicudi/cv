@@ -92,7 +92,23 @@ TODO brief description
 ---
 
 ## Lobster SIM Activator
-TODO expanded description
+L|Python|https://www.python.org|
+L|XML SOAP|https://www.w3schools.com/xml/xml_soap.asp|
+
+An automated system designed to manage and activate SIM cards by interfacing with a CRM (Customer Relationship Management) system. It monitors open activation events, processes relevant data, and executes necessary actions to complete activation workflows.
+
+``` mermaid
+sequenceDiagram
+    participant CRM as CRM Platform
+    participant Events as Events
+    participant WorkOrders as Work Orders
+    participant Jobs as Jobs
+
+    CRM->>Events: Event detection (SOAP API)
+    Events->>WorkOrders: Extract access number data for activation
+    WorkOrders->>Jobs: Activate work order job step and close event
+```
+
 
 ---
 
