@@ -156,6 +156,8 @@ Delivery reports were recieved via SMPP connection and sent to the Portal via Dj
 
 Services to handle incoming and outgoing messages were handled via separate listener and transmitter services connected via SMPP.
 
+---
+
 ## ETK (Provisioning Platform)
 TODO expanded description
 
@@ -174,6 +176,7 @@ sequenceDiagram
 RQ Active/Standby provisioning
 Provisioning of and presentation of Panic button data using SMS.
 
+---
 
 ## MVNO Number Porting
 TODO expanded description
