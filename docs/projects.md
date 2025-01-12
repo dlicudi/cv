@@ -3,8 +3,14 @@
 A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
 
 ## EPG CDR Processor
-Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis.
 
+L|Python|https://www.python.org|
+L|MongoDB|https://www.mongodb.com|
+L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
+L|Systemd|https://systemd.io|
+L|ASN.1|https://www.ncbi.nlm.nih.gov/Structure/asn1.html|
+
+Developed a Python application to efficiently process and analyse Call Detail Records (CDRs). The tool parses XML-converted CDRs, extracting data points such as MSISDN, IMSI, network type, and traffic volumes, then stores these records in MongoDB for data retrieval and analysis.
 
 ``` mermaid
 sequenceDiagram
@@ -21,15 +27,19 @@ sequenceDiagram
     Processor->>MongoDB: Database storage 
 ```
 
-
-Features include:
-
 - Custom parsing of hexadecimal data for accurate location and timestamp information.
 - Multi-processing to handle large datasets concurrently (using python multiprocessing module).
 - Automated file management to prevent duplicate processing.
 - Error logging and handling for operational reliability.
 
 ## OLM Processor
+
+L|Python|https://www.python.org|
+L|MongoDB|https://www.mongodb.com|
+L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
+L|Systemd|https://systemd.io|
+
+
 Designed and implemented a Python-based system for processing Online Mediation platform data, managing the collection and decoding of logs from various network streams.
 
 ``` mermaid
@@ -45,22 +55,16 @@ sequenceDiagram
     OLM_Processor->>MongoDB: Storage
 ```
 
-- **Collector**: Utilizes SFTP to fetch log files from multiple predefined streams, organizing and managing these files across local directories for processing. Features include:
-  - Monitoring specific directories for new log files.
-  - Implementing limits on the number of subdirectories and files processed to manage system resources.
-  - Logging for operational transparency and troubleshooting.
+- **Collector** utilises SFTP to fetch log files from multiple predefined streams, organizing and managing these files across local directories for processing.
+- **Decoder** parses log filenames and content to extract timestamps, stream identifiers and MSISDN.
+- **Processor**: Processes decoded files for storage in MongoDB.
 
-- **Decoder**: Parses log filenames and content to extract meaningful data such as timestamps, stream identifiers, and MSISDN (Mobile Station International Subscriber Directory Number). Key aspects include:
-  - Custom regex for identifying and extracting MSISDN within logs.
-  - Decoding gzip-compressed files to process their contents.
+!!! note "Technologies"
+    ==Multiprocessing==
+    ==Python==
+    ==MongoDB==
+    ==Systemd==
 
-- **Processor**: Manages the actual data processing, including:
-  - Handling both compressed (.gz) and uncompressed log files.
-  - Storing parsed data in MongoDB for later analysis or reporting.
-  - Multi-processing for performance, allowing parallel processing of multiple files.
-  - File management post-processing, moving files to a processed directory to avoid reprocessing.
-
-This project enhances data handling capabilities for network mediation, ensuring efficient log management, data extraction, and storage for operational insights.
 
 ## Field Ops Portal
 TODO brief description
