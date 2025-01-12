@@ -105,7 +105,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **Linux** (★★★★★, 20+ yrs) - System administration, enterprise services engineering, DevOps
 - **Python** (★★★★★, 10+ yrs) - Web development, data processing, scripting
 - **ISO 27001** (★★★★☆, 2+ yrs) - Experience in implementing secure development processes
-- **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI with jQuery, Bootstrap, DataTables, Basic DOM manipulation
+- **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI elements with jQuery, Bootstrap, DataTables, Basic DOM manipulation
 - **Bash** (★★★★★, 20+ yrs) - Used to automate CI deployment pipelines
 - **C** (★★★☆☆) - Developing command-line tools to incorporate MySQL data into MRTG; kernel patching and compiling for User Mode Linux.
 - **Django** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps requiring databases and admin portals
