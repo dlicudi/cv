@@ -227,17 +227,25 @@ sequenceDiagram
     participant Collector as Collector
     participant FileStorage as File Storage
     participant Importer as Importer
-    participant Database as Database
+    participant Database as Database (MongoDB)
     participant Processor as Processor
     participant Activator as Activator
     participant FNR as Flexible Number Registry
 
     AOPM->>Collector: SFTP transfer of files
     Collector->>FileStorage: Storage of collected files
-    FileStorage->>Importer: Importing of file data to MongoDB
+    FileStorage->>Importer: Reading data from file storage
+    Importer->>Database: Saving file data to database
     FileStorage->>Processor: Translation of file data to subscriber translations
     Processor->>Database: Storing subscriber translations for activation
     Activator->>Database: Retrieving subscriber translations
-    Activator->>FNR: Activation of subscriber translations
-    
+    Activator->>FNR: Activation of subscriber translations    
 ```
+
+**Modular Design**: Employed a modular architecture (Collector, Importer, Processor, Activator), this allowed for easier maintenance, better scalability and improved reliability.
+
+
+
+
+
+
