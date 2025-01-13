@@ -1,6 +1,6 @@
 ---
 title: Projects
-summary: A brief description of my document.
+summary: A sample of interesting projects I've worked on
 author: Duane Licudi
 ---
 
@@ -209,17 +209,35 @@ Provisioning of and presentation of Panic button data using SMS.
 ---
 
 ## MVNO Number Porting
-TODO expanded description
+L|Python|https://www.python.org|
+L|telnetlib|https://docs.python.org/3/library/telnetlib.html|
+L|MongoDB|https://www.mongodb.com|
+L|Systemd|https://systemd.io|
+L|YAML|https://yaml.org|
+L|MML (man–machine language)|https://en.wikipedia.org/wiki/MML_(programming_language)|
+L|Multiprocessing|https://docs.python.org/3/library/multiprocessing.html|
+
+Developed a Python-based **MVNO** number porting mediation service for a spanish MVNO to automate the provisioning of ported numbers.
+This that utilises SFTP for file collection, **MongoDB** for data storage and parsing of CSV/gzip data files. It also required interfacing with a Flexible Number Registry via **Telnet** and **MML** to retrieve existing subscriber translations and activate new ones. Multiprocessing capability was introduced allowing multiple activators to run in parallel.
+
 
 ``` mermaid
 sequenceDiagram
-    participant A as AOPM SFTP
-    participant B as File Storage
-    participant C as Sources DB
-    participant D as Translations DB
-    participant E as FNR
-    A->>B: Collector
-    B->>C: Importer
-    C->>D: Translations DB
-    D->>E: Activator
+    participant AOPM as AOPM
+    participant Collector as Collector
+    participant FileStorage as File Storage
+    participant Importer as Importer
+    participant Database as Database
+    participant Processor as Processor
+    participant Activator as Activator
+    participant FNR as Flexible Number Registry
+
+    AOPM->>Collector: SFTP transfer of files
+    Collector->>FileStorage: Storage of collected files
+    FileStorage->>Importer: Importing of file data to MongoDB
+    FileStorage->>Processor: Translation of file data to subscriber translations
+    Processor->>Database: Storing subscriber translations for activation
+    Activator->>Database: Retrieving subscriber translations
+    Activator->>FNR: Activation of subscriber translations
+    
 ```
