@@ -242,7 +242,7 @@ sequenceDiagram
     Activator->>FNR: Activation of subscriber translations    
 ```
 
-**Modular Design**: Employed a modular architecture (Collector, Importer, Processor, Activator), this allowed for easier maintenance, better scalability and improved reliability.
+**Modular Design**: Employed a modular architecture (Collector, Importer, Processor, Activator); this allowed for easier maintenance, better scalability and improved reliability.
 
 
 
