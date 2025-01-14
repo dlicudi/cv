@@ -6,7 +6,7 @@ author: Duane Licudi
 
 # Projects
 
-A sample of interesting projects I've worked on, some of which I have expanded on to include more detailed information.
+A sample of interesting projects I've worked on, some of which I have expanded on to include sequence diagrams as a visual aid. 
 
 ## EPG CDR Processor
 L|Python|https://www.python.org|
@@ -73,8 +73,23 @@ sequenceDiagram
 ## Field Ops Portal
 L|Python|https://www.python.org|
 L|Django|https://www.django.org|
+L|Django OTP|https://github.com/django-otp/django-otp|
+L|Django Two-Factor Authentication|https://pypi.org/project/django-two-factor-auth/|
 L|Celery|https://www.celery.org|
 L|Nginx|https://nginx.org|
+L|LDAP|https://www.python-ldap.org/en/python-ldap-3.4.3/|
+L|Rsyslog|https://www.rsyslog.com|
+
+The main goal of this project was provide a facility that would allow providing customers with appointments in real time, without having to check back on availability, as this was provided in real time. This also included real time integration of CRM platform to retrieve and store relevant work order information.
+
+The approach was to create actual empty time slots per engineer and have this allocated to appointments, this avoided any chance of double booking.
+
+The system managed engineers, activities, time slots and appointments which were assigned to available time slots.
+
+For appointment confirmation and reminders, **Celery** was used to schedule emails based on current date and appointment dates.
+
+For internal use the Django Admin interface including significant modifications to show notes and time slot usage visually utilising **Chart.js**.
+
 
 ---
 
@@ -205,6 +220,11 @@ sequenceDiagram
 
 RQ Active/Standby provisioning
 Provisioning of and presentation of Panic button data using SMS.
+
+---
+
+## Check_MK Monitoring System
+TODO
 
 ---
 
