@@ -1,20 +1,21 @@
-# Duane Licudi
+# CV
 
+---
 ## Summary
-
 Systems Integration Engineer and Developer with over 20 years of experience.
 
 I have extensive experience in UNIX/Linux environments within the ISP/Telecom industries. For the past decade, I have focused on the development and integration of systems at Gibtelecom, including implementing monitoring systems, integrating multiple systems into a unified provisioning platform and achieving ISO 27001 compliance for secure development.
 
+---
 ## Contact
 - **Email**: [dlicudi@gmail.com](mailto:dlicudi@gmail.com)
 - **LinkedIn**: [linkedin.com/in/dlicudi](https://linkedin.com/in/dlicudi)
 - **GitHub**: [github.com/dlicudi](https://github.com/dlicudi)
 
+---
 ## Experience
 
 ### :material-account: Gibtelecom, Gibraltar
-
 - **Position**: Lead Developer
 - **Duration**: Jan 2013 - July 2023
 
@@ -99,24 +100,24 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
 
 Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.
 
+---
 ## Education
 - **University of Portsmouth**: Advanced Diploma in Psychology, 1995-1997
 - **Chichester College**: Science Foundation Course, 1994-1995
 
+---
 ## Languages
-
 - English: Native
 - Spanish: Fluent
 
-
+---
 ## Skills
-
 - **Linux** (★★★★★, 20+ yrs) - System administration, performance tuning for enterprise services and server management for DevOps (deployment automation, systemd services)
 - **Python** (★★★★★, 10+ yrs) - Web development, data processing, scripting
 - **PHP** (★★★★★, 10+ yrs) - Web development, data processing, scripting 
 - **ISO 27001** (★★★★☆, 2+ yrs) - Experience in implementing secure development processes
 - **JavaScript** (★★★☆☆, 10+ yrs) - Front-end UI elements with jQuery, Bootstrap, DataTables, Basic DOM manipulation
-- **Bash** (★★★★★, 20+ yrs) - Used to automate CI deployment pipelines
+- **Bash** (★★★★★, 20+ yrs) - Used to automate CI/CD pipelines
 - **C** (★★★☆☆) - Developing command-line tools to incorporate MySQL data into MRTG; kernel patching and compiling for User Mode Linux.
 - **Django** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps requiring databases and admin portals
 - **Flask** (★★★★★, 5+ yrs) - Production-grade REST APIs, MVC apps
@@ -136,6 +137,7 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **Check_MK** (★★★★☆, 8+ yrs) - Monitoring of telecoms and internet infrastructure, environmental sensors. 
 - **Postman** (★★★★☆, 5+ yrs) - Incredibly useful tool for API development and security testing. 
 
+---
 ## Open Source Projects
 
 - Cockpitdecks: Contributor
