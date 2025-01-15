@@ -8,6 +8,9 @@ plugins:
   - tags
 theme:
   name: material
+  font:
+    text: Roboto
+    code: Roboto Mono
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -31,6 +34,7 @@ theme:
     - navigation.expand
     - toc.integrate
     - navigation.top
+    - header.autohide
 markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
