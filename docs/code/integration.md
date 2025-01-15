@@ -2,12 +2,7 @@
 title: Integration
 ---
 
-
-
-### Home Location Registry
-
-
-### HlrCluster Class Overview
+### HlrCluster Class
 
 The **HlrCluster** class is designed to manage both **active** and **standby** Home Location Registers (HLRs) for mobile network operations.
 
