@@ -49,10 +49,10 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
     - Performed **MySQL** database optimisations on a **live betting** platform, significantly improving **performance** and enabling more events to run in parallel.
 
 ### :material-account: Licudi IT Consulting Ltd, Gibraltar
+*IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.*
+
 - **Position**: IT Consultant
 - **Duration**: 2010 - 2012
-
-IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.
 
 !!! note "Key Achievements"
     - Designed **IT infrastructure** for new offices including servers, network switches, telephony and workstations/printers for firm of managers quantity surveyors (John Licudi Consulting Ltd).
@@ -61,10 +61,10 @@ IT consultant specialising in Windows Server 2003 administration, Google Apps fo
     - **PHP**/**MySQL** based leave management system allowing for leave requests to be made online.
 
 ### :material-account: Sapphire Networks, Gibraltar
+*Head of IT Systems and Helpdesk with hands on involvement in System administration and software development and responsibility for entire server infrastructure.*
+
 - **Position**: IT Systems Manager
 - **Duration**: 2005 - 2010
-
-Head of IT Systems and Helpdesk with hands on involvement in System administration and software development and responsibility for entire server infrastructure.
 
 !!! note "Key Achievements"
     - Implemented RT (**Request-Tracker**) and **Redmine** as ticketing systems.
@@ -76,14 +76,14 @@ Head of IT Systems and Helpdesk with hands on involvement in System administrati
     - Developed system to manage On Call and NOC Shifts online (gained experience using frameworks iUI, iWebkit and jQTouch for better mobile experience).
 
 ### :material-account: GibNet Ltd, Gibraltar
-- **Position**: Systems Administrator
-- **Duration**: 2005 - 2010
-
-Initially allocated responsibilities for Helpdesk support for GibNet customers, Desktop support
+*Initially allocated responsibilities for Helpdesk support for GibNet customers, Desktop support
 and system administration. My role was later expanded to focus more on system administration and
 programming with emphasis on improving server infrastructure (using mod_security and scripts to
 monitor for vulnerable code hosting internally and by customers) and implementing more resilient
-services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS/SMTP, and active backup servers for immediate recovery).
+services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS/SMTP, and active backup servers for immediate recovery).*
+
+- **Position**: Systems Administrator
+- **Duration**: 2005 - 2010
 
 !!! note "Key Achievements"
     - **PHP**/**MySQL** based Gibraltar .GI Registry (**WHOIS**, online application forms, integrated **billing** and payment gateway integration).
@@ -96,10 +96,10 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
     - **MySQL**/**PHP**/**Bash** **backup** system for a large server **infrastructure** based. This provided incremental rolling backups easily provisioned via configuration files with the **frontend** providing status of backup jobs.
 
 ### :material-account: John Licudi & Partners, Gibraltar
+*Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.*
+
 - **Position**: IT Manager
 - **Duration**: 1997 - 1999
-
-Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.
 
 ---
 ## Courses
