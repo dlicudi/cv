@@ -102,11 +102,6 @@ services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS
 Employed in Surveying Practice as an IT Manager with particular responsibility for desktop support, training staff and developing databases/documents for construction related projects.
 
 ---
-## Education
-- **University of Portsmouth**: Advanced Diploma in Psychology, 1995-1997
-- **Chichester College**: Science Foundation Course, 1994-1995
-
----
 ## Courses
 
 ### :material-account: Microservices Fundamentals
@@ -125,6 +120,10 @@ L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
     - Handling authentication and authorization in microservice communications.
     - Skills in building maintainable, testable, and secure microservices.
 
+---
+## Education
+- **University of Portsmouth**: Advanced Diploma in Psychology, 1995-1997
+- **Chichester College**: Science Foundation Course, 1994-1995
 
 ---
 ## Languages
