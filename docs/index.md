@@ -19,22 +19,22 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
 - **Position**: Lead Developer
 - **Duration**: Jan 2013 - July 2023
 
-As the Lead Developer at Gibtelecom, I was responsible for the development and implementation of key systems.
+Lead Developer at Gibtelecom, responsible for all development and integration of key systems.
 
 !!! note "Key Achievements"
     - Monitoring system using **Check_MK** monitoring over 60k services.
-    - Flask/MongoDB based **provisioning** platform used company wide by Engineers and customer facing staff.
+    - **Flask**/**MongoDB** based **provisioning** platform used company wide by Engineers and customer facing staff.
     - Django/PostgreSQL based migration portal to facilitate migration of telephone subscribers from **SystemX** to **IMS** platform.
     - Django/PostgreSQL based migration portal to facilitate migration of legacy broadband subscribers to **FTTH** (Fibre to the home).
-    - Support and integration of Ericsson's provisioning platforms (EMA/EDA) with BSS platform.
-    - Django/PostgreSQL and FastAPI based **SMS API** to provide a customer-facing service.
+    - Support and integration of Ericsson's provisioning platforms (**EMA**/**EDA**) with BSS platform.
+    - **Django**/**PostgreSQL** and **FastAPI** based **SMS API** to provide a customer-facing service.
     - Standardised process for new **standard operating procedures** adopted across Technology Directorate.
-    - Python/MongoDB based automated **MVNO** number porting system.
-    - Python and MySQL based **mediation platform** to facilitate data warehousing and interfacing of usage records for an MVNO.
+    - **Python**/**MongoDB** based automated **MVNO** number porting system.
+    - **Python** and **MySQL** based **mediation platform** to facilitate data warehousing and interfacing of usage records for an **MVNO**.
     - Conducted **MVNO** penetration testing successfully finding numerous **security vulnerabilties** that could be patched before launch.
     - Achieved **ISO 27001** certification for secure development.
     - Established secure development procedures and processes aligned with **ISO 27001**.
-    - **CI** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying git code).
+    - **CI** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
 
 ### :material-account: BetVictor, Gibraltar
 - **Position**: Enterprise Services Engineer
@@ -43,9 +43,9 @@ As the Lead Developer at Gibtelecom, I was responsible for the development and i
 At BetVictor, I focused on supporting and improving the performance and monitoring of systems like Oracle Coherence, ActiveMQ, and Apache. Key contributions included:
 
 !!! note "Key Achievements"
-    - Use of **Splunk** to monitor the health of **Oracle Coherence**, enhancing system visibility and troubleshooting capabilities.
-    - Established better deployment processes that eliminated **Oracle Coherence** downtime, significantly improving system reliability and user experience.
-    - **Issue Resolution**: Diagnosed and fixed configuration issues with the mobile website that had been affected by downtime, ensuring seamless service delivery.
+    - **Splunk** health monitoring of **Oracle Coherence** and **ActiveMQ** using , enhancing system visibility and troubleshooting capabilities.
+    - Improved deployment processes that eliminated **Oracle Coherence** downtime, significantly improving deployment reliability.
+    - Diagnosed and fixed configuration issues with the mobile website that had been affected by downtime, ensuring seamless service delivery.
     - Performed **MySQL** database optimisations on a **live betting** platform, significantly improving **performance** and enabling more events to run in parallel.
 
 ### :material-account: Licudi IT Consulting Ltd, Gibraltar
@@ -55,9 +55,10 @@ At BetVictor, I focused on supporting and improving the performance and monitori
 IT consultant specialising in Windows Server 2003 administration, Google Apps for Business setup and management and development of in-house applications.
 
 !!! note "Key Achievements"
-    - IT infrastructure. Designed infrastructure for new offices including servers, network switches, telephony and workstations/printers for firm of project managers and quantity surveyors (John Licudi Consulting Ltd).
-    - Google Apps. Migration of a Microsoft Exchange setup of approx. 25 accounts to Google Apps.
-    - PHP Development. Development payroll application using PHP/MySQL with functions for automatic social security/tax calculations and ability to print on pre-printed payslips. Developed application to facilitate leave management and allowing for online requests.
+    - Designed **IT infrastructure** for new offices including servers, network switches, telephony and workstations/printers for firm of managers quantity surveyors (John Licudi Consulting Ltd).
+    - Migration of a **Microsoft Exchange** setup of approx. 25 accounts to **Google Apps**.
+    - **PHP**/**MySQL** based Payroll application to automate social security/tax calculations and ability to print on pre-printed payslips.
+    - **PHP**/**MySQL** based leave management system allowing for leave requests to be made online.
 
 ### :material-account: Sapphire Networks, Gibraltar
 - **Position**: IT Systems Manager
@@ -66,13 +67,13 @@ IT consultant specialising in Windows Server 2003 administration, Google Apps fo
 Head of IT Systems and Helpdesk with hands on involvement in System administration and software development and responsibility for entire server infrastructure.
 
 !!! note "Key Achievements"
-    - Ticketing Systems. Implemented RT (Request-Tracker) and Redmine as ticketing systems.
-    - Virtualisation. Further expanded existing virtualised infrastructure with Xen on CentOS and Citrix XenServer.
+    - Implemented RT (**Request-Tracker**) and **Redmine** as ticketing systems.
+    - Expanded existing virtualised infrastructure with **Xen** on **CentOS** and Citrix XenServer.
     - Document Management. Produced and managed technical documentation, including procedures and documentation for disaster recovery.
-    - Training. Responsible for training staff within ITS, Helpdesk and the NOC.
-    - Disaster Recovery. Implementing solutions to recover from server failures, particularly in the provision of disaster recovery manuals/scripts for on call action.
-    - PHP Development. Application for provisioning ADSL lines on MALC DSLAMs making extensive use of Pear classes for connectivity, and extending classes to hide complexity of provisioning. Developed system to manage On Call and NOC Shifts (in the process of providing better mobile access gained experience using frameworks iUI, iWebkit and jQTouch).
-
+    - **Training** staff within ITS, Helpdesk and the NOC.
+    - Implementing solutions to recover from server failures, particularly in the provision of disaster recovery manuals/scripts for on call action.
+    - Application for provisioning ADSL lines on MALC DSLAMs making extensive use of Pear classes for connectivity, and extending classes to hide complexity of provisioning
+    - Developed system to manage On Call and NOC Shifts online (gained experience using frameworks iUI, iWebkit and jQTouch for better mobile experience).
 
 ### :material-account: GibNet Ltd, Gibraltar
 - **Position**: Systems Administrator
@@ -85,14 +86,14 @@ monitor for vulnerable code hosting internally and by customers) and implementin
 services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS/SMTP, and active backup servers for immediate recovery).
 
 !!! note "Key Achievements"
-    - Gibraltar .GI Registry. Undertook development of a database and whois for the .GI Registry using PHP/MySQL. Work on this project was further expanded to include online application forms, integrated billing and payment gateway integration.
-    - NAS Dial-Up Frontend. Developed frontend to view and monitor Dial-Up connections using SNMP and PHP.
-    - phpMyProjects. Developed an application in PHP/MySQL to manage a changelog of work done on projects and servers.
-    - User Management. Furthered development and maintenance of an existing user provisioning system based on C, Bash and Perl components. This required a thorough review of all code to ensure any changes would not introduce any problems.
-    - Electorate Lookup. Developed a web application based on PHP/MySQL on behalf of the Gibraltar Government to provide an online lookup tool of the electorate list which was to be used for upcoming elections and in the 2006 Referendum.
-    - RADIUS Toolkit. Developed a frontend to RADIUS accounting data for Helpdesk support and customer services.
-    - User-Mode-Linux. Used UML as a platform for paravirtualisation of a number of servers. This continued to run successfully for many years before being replaced by newer technologies.
-    - Server Backup System. Developed a backup system for a large server infrastructure based on BASH with a MySQL and PHP frontend. This provided incremental rolling backups easily provisioned via configuration files with the frontend providing status of backup jobs.
+    - **PHP**/**MySQL** based Gibraltar .GI Registry (**WHOIS**, online application forms, integrated **billing** and payment gateway integration).
+    - NAS Dial-Up Frontend. Developed frontend to view and monitor Dial-Up connections using **SNMP** and **PHP**.
+    - **PHP**/**MySQL** phpMyProjects. Changelog of work done on projects and servers.
+    - Development and maintenance of an existing user provisioning system based on **C**, **Bash** (+dialog) and **Perl** components.
+    - **PHP**/**MySQL** based Electorate Lookup web application on behalf of the Gibraltar **Government** to provide an online lookup tool of the electorate list for upcoming elections and 2006 Referendum.
+    - PHP/MySQL based frontend for RADIUS accounting data used by Helpdesk support and customer services.
+    - **User Mode Linux** as a platform for paravirtualisation deployed on a number of servers (as a precursor to newer technologies).
+    - **MySQL**/**PHP**/**Bash** **backup** system for a large server **infrastructure** based. This provided incremental rolling backups easily provisioned via configuration files with the **frontend** providing status of backup jobs.
 
 ### :material-account: John Licudi & Partners, Gibraltar
 - **Position**: IT Manager
