@@ -108,8 +108,23 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 
 ---
 ## Courses
-- Microservices Architecture Fundamentals (Pluralsight)
-- Building Microservices (Pluralsight)
+
+### :material-account: Microservices Fundamentals
+L|PluralSight|https://www.pluralsight.com/courses/microservices-fundamentals|
+
+!!! note "Core Skills"
+    - Understanding of key principles for architecting microservice applications.
+    - Techniques for building scalable, flexible, resilient, and secure microservices.
+
+### :material-account: Building Microservices
+L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
+
+!!! note "Core Skills"
+    - Structuring domain logic and implementing data mapping layers.
+    - Testing strategies for microservices.
+    - Handling authentication and authorization in microservice communications.
+    - Skills in building maintainable, testable, and secure microservices.
+
 
 ---
 ## Languages
