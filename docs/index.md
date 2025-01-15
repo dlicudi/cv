@@ -34,7 +34,7 @@ Lead Developer at Gibtelecom, responsible for all development and integration of
     - Conducted **MVNO** penetration testing successfully finding numerous **security vulnerabilties** that could be patched before launch.
     - Achieved **ISO 27001** certification for secure development.
     - Established secure development procedures and processes aligned with **ISO 27001**.
-    - **CI** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
+    - **CI/CD** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
 
 ### :material-account: BetVictor, Gibraltar
 - **Position**: Enterprise Services Engineer
@@ -107,6 +107,11 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 - **Chichester College**: Science Foundation Course, 1994-1995
 
 ---
+## Courses
+- Microservices Architecture Fundamentals (Pluralsight)
+- Building Microservices (Pluralsight)
+
+---
 ## Languages
 - English: Native
 - Spanish: Fluent
@@ -140,6 +145,6 @@ Employed in Surveying Practice as an IT Manager with particular responsibility f
 
 ---
 ## Open Source Projects
-
 - Cockpitdecks: Contributor
 - Cockpitdecks Configs: Main Developer
+
