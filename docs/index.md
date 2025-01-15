@@ -16,10 +16,10 @@ I have extensive experience in UNIX/Linux environments within the ISP/Telecom in
 ## Experience
 
 ### :material-account: Gibtelecom, Gibraltar
+*Lead Developer at Gibtelecom, responsible for all development and integration of key systems.*
+
 - **Position**: Lead Developer
 - **Duration**: Jan 2013 - July 2023
-
-Lead Developer at Gibtelecom, responsible for all development and integration of key systems.
 
 !!! note "Key Achievements"
     - Monitoring system using **Check_MK** monitoring over 60k services.
@@ -37,10 +37,10 @@ Lead Developer at Gibtelecom, responsible for all development and integration of
     - **CI/CD** pipelines using **BASH** scripts (unit testing, vulnerability code scanning, building and deploying from **BitBucket** **Git** repositories).
 
 ### :material-account: BetVictor, Gibraltar
+*Middleware Engineer responsible for improving performance and monitoring of critical systems like Oracle Coherence, ActiveMQ, and Apache web servers.*
+
 - **Position**: Enterprise Services Engineer
 - **Duration**: Jan 2013 - Dec 2013
-
-At BetVictor, I focused on supporting and improving the performance and monitoring of systems like Oracle Coherence, ActiveMQ, and Apache. Key contributions included:
 
 !!! note "Key Achievements"
     - **Splunk** health monitoring of **Oracle Coherence** and **ActiveMQ** using , enhancing system visibility and troubleshooting capabilities.
@@ -156,6 +156,7 @@ L|PluralSight|https://www.pluralsight.com/courses/building-microservices|
 - **Nginx** (★★★★☆, 10+ yrs) - Used with Django and Flask for reverse proxying and HTTP load balancing
 - **Check_MK** (★★★★☆, 8+ yrs) - Monitoring of telecoms and internet infrastructure, environmental sensors. 
 - **Postman** (★★★★☆, 5+ yrs) - Incredibly useful tool for API development and security testing. 
+- **Markdown** (★★★★★, 5+ yrs) - Documentation, READMEs, documentation on GitHub
 
 ---
 ## Open Source Projects
