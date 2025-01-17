@@ -83,7 +83,7 @@ monitor for vulnerable code hosting internally and by customers) and implementin
 services (implementing master/slave MySQL servers, paired servers for RADIUS/DNS/SMTP, and active backup servers for immediate recovery).*
 
 - **Position**: Systems Administrator
-- **Duration**: 2005 - 2010
+- **Duration**: 2000 - 2005
 
 !!! note "Key Achievements"
     - **PHP**/**MySQL** based Gibraltar .GI Registry (**WHOIS**, online application forms, integrated **billing** and payment gateway integration).
